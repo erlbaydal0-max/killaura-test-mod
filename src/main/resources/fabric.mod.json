@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "killaura",
+  "version": "1.0.0",
+  "name": "KillAura Test Mod",
+  "description": "Anti-cheat testing mod with GUI menu",
+  "authors": ["redoc"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.redoc.killaura.KillAuraMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21"
+  }
+}
